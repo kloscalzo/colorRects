@@ -17,7 +17,7 @@ function draw() {
   line(0,height/3,width/2,height/3);
   }
 
-function mouseIsMoved(){
+function mouseMoved(){
 if(mouseX < width/2 && mouseY < height/3){
   fill(255,0,0);
   rect(0,0,width/2,height/3);
